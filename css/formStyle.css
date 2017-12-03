@@ -1,0 +1,106 @@
+h1 {
+	font-size: 2em;
+	font-family: "Lucida Sans Unicode" , sans-serif
+}
+
+
+body{
+	background-color: black;
+	font-family:helvetica;
+	background:url('../images/BG.jpg') center top;
+	background-size: cover;
+}
+
+.body-content{
+	position:relative;
+	
+}
+
+.logcontainer{
+	top:100px;
+	position:relative;   
+	height:37%;
+	width:450px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:2%;
+	border: 3px solid transparent;
+	background-color: rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+}
+
+.regcontainer{
+	position:relative;   
+	height:55%;
+	width:450px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:2%;
+	border: 3px solid transparent;
+	background-color: rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+}
+
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"],
+input[type="number"]
+{
+	height:30px;
+	width:100%;;
+	vertical-align: middle;
+	height: 35px;
+	padding: 12px;
+	margin-top: 7px;
+	margin-bottom: 10px;
+	border: 1px solid black;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.btnRegister{
+	margin: 15px 0;
+	padding: 6px 20px;
+	font-size: 17px;
+	height: 38px;
+	display: block;
+	width: 100%;
+}
+
+.btnRegister-primary {
+	background-color: #ff1a1a;
+	color: black;
+	border: 2px solid transparent;
+	border-radius: 3px;
+}
+.btnRegister-primary:hover,
+.btnRegister-primary:focus {
+	background-color: #ff3333;
+	color: #ffd1b3;
+}
+
+.btnLogin{
+	margin: 15px 0;
+	padding: 6px 20px;
+	font-size: 17px;
+	height: 38px;
+	display: block;
+	width: 100%;
+}
+
+.btnLogin-primary {
+	background-color: #426bf4;
+	color: black;
+	border: 2px solid transparent;
+	border-radius: 3px;
+}
+.btnLogin-primary:hover,
+.btnLogin-primary:focus {
+	background-color: #5679ef;
+	color: #ffd1b3;
+}
+
+
+
