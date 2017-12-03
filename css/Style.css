@@ -1,0 +1,398 @@
+body{
+	font-family:helvetica;
+	background:url('../Images/BG.jpg') center top;
+	background-size: cover;
+}
+
+#logout{ 
+	height:50px;
+	width: 160px;
+	margin-left: -28px;
+	background-color: transparent;
+} 
+
+#welcome{
+	color: #dddce2;
+	vertical-align: middle;
+	font-size: 140%;
+	padding-left: 10%;
+}
+#logout{
+	color: #dddce2;
+	vertical-align: middle;
+	font-size: 140%;
+	padding-left: 10%;
+}
+
+#toptitle{
+	font-size: 150%;
+	font-weight: bold;
+	color: #dddce2;
+	vertical-align: middle;
+	padding: 1%;
+}
+
+#logoutlink{
+	display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+	padding-left: 3%;
+}
+
+.tcont{
+	height: 100%;
+	width: 10%;
+	float: left;
+	line-height: 290%; 
+	padding-left: 1%;
+}
+.topnav{
+	background-color: #191970;
+	background-size: cover;
+	margin-top: -0.4%;
+	width: 100%;
+	height: 5%;
+	border: 1px solid transparent;
+	background-color: #2911af;
+}
+
+.welcome{
+	background-image: url('../images/user.png');
+	background-position: left center;
+	background-repeat: no-repeat;
+	line-height: 290%;  
+	position: relative;
+	float: right;
+	width:15%;
+	height: 100%;
+	padding-left: 1.2%;
+}
+.welcome:hover,
+.welcome:focus {
+	background-color: #5679ef;
+	color: #ffd1b3;
+}
+.logout{
+	background-image: url('../images/out.png');
+	background-position: left center;
+	background-repeat: no-repeat;
+	text-align: left;
+	vertical-align: middle;
+	line-height: 80%;  
+	position: relative;
+	line-height: 290%; 
+	float: right;
+	height: 100%;
+	width: 7%;
+	padding-left: 1.5%;
+	
+}
+.logout:hover,
+.logout:focus {
+	background-color: #5679ef;
+	color: #ffd1b3;
+}
+
+.sidenav{
+	background-color: #595959;
+	height:95%;
+	width: 10%;
+	float: left;
+}
+
+.sidenav li{
+	margin-top: 2%;
+	margin-left: -26%;
+	padding-left: 35%;
+	padding-bottom: 12%;
+	position:relative;
+	display:block;
+	line-height: 290%; 
+	height: 5%;
+	width: 91%;
+}
+.sidenav li:hover{
+	background-color: #708090;
+	color: #191970;
+}
+
+a { 
+	color: inherit; 
+} 
+
+.menuitem-dashboard{
+	background-image: url('../images/dashboard.png');
+	background-position: left center;
+	background-repeat: no-repeat;
+	font-weight: bold;
+	color: #dddce2;
+	vertical-align: middle;
+	font-size: 140%;
+	
+}
+
+.menuitem-sales{
+	background-image: url('../images/sales.png');
+	background-position: left center;
+	background-repeat: no-repeat;
+	font-weight: bold;
+	color: #dddce2;
+	vertical-align: middle;
+	font-size: 140%;
+	
+}
+
+.menuitem-products{
+	background-image: url('../images/products.png');
+	background-position: left center;
+	background-repeat: no-repeat;
+	font-weight: bold;
+	color: #dddce2;
+	vertical-align: middle;
+	font-size: 140%;
+	
+}
+
+.menuitem-history{
+	background-image: url('../images/history.png');
+	background-position: left center;
+	background-repeat: no-repeat;
+	font-weight: bold;
+	color: #dddce2;
+	vertical-align: middle;
+	font-size: 140%;
+	
+}
+
+.menulink{
+	display: block;
+    height: 150%;
+    width: 100%;
+    text-decoration: none;
+	padding-left: 3%;
+}
+
+.menulink:visited{
+	#white;
+}
+
+.clockcon{
+	position: fixed; 
+bottom: 20;
+left: 23;
+}
+
+#dashboard{
+	background-image: url('../images/dash1.png');
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+
+.outcon{
+	border-radius: 10px;
+	margin-top: 0.6%;
+	margin-right: 1.5%;
+	height: 88%;
+	width:86%;
+	float: right;
+	border: 1px solid transparent;
+}
+
+.inhead{
+	background-color: #D3D3D3;
+	height: 7%;
+	width:100%;
+	border: 1px solid transparent;
+	border-radius: 3px;
+}
+
+.headtitle{
+	font-size: 30;
+	margin-left: 1%;
+	position:relative;
+	display:block;
+	line-height: 200%; 
+}
+
+.searchcon{
+	margin-top: 2%;
+	border: 1px solid transparent;
+	height: 5%;
+	width:100%;
+}
+
+.search{
+	font-size: 17;
+	height: 100%;
+	width: 20%;
+	margin-right: 0.5%;
+	border-radius: 5px;
+}
+
+.sqty{
+	font-size: 17;
+	height: 100%;
+	width: 4%;
+	margin-right: 0.5%;
+	border-radius: 5px;
+}
+
+.btn-add{
+	
+	font-size: 17;
+	height: 100%;
+	width: 5%;
+	border-radius: 5px;
+}
+.addicon{
+	background: url(../images/add.ico) no-repeat left;
+}
+
+.tbl-sale{
+	border-collapse: collapse;
+	width: 100%;
+	height: 50%;
+	overflow-x:auto;
+	padding: 15px;
+}
+
+.tbl-sale th{
+	height: 30px;
+	background-color: #E8E8E8;
+	border: 1px solid #D3D3D3;
+	
+}
+
+.tbl-sale td{
+	height: 40px;
+	background-color: #E8E8E8;
+	border: 1px solid #D3D3D3;
+	padding-left: 10px;
+	font-size: 18;
+}
+
+#orderno{
+	margin-left: 1%;
+	font-size: 140%;
+}
+
+.btn-edit{
+	border-radius: 5px;
+	height: 30px;
+	width: 45%;
+}
+
+.btn-cancel{
+	border-radius: 5px;
+	height: 30px;
+	width: 45%;
+}
+
+.cashdiv{
+	margin-top: 10px;
+	height: 70%;
+	font-size: 25;
+}
+
+.btn-checkout:hover,
+.btn-checkout:focus{
+	background-color: #72f963;
+	color: #3f423f;
+}
+
+.btn-checkout-div{
+	float: left;
+	height: 30px;
+	width: 40%;
+}
+
+.btn-checkout{
+	text-align: center;
+	border: 1px solid black;
+	background-color: #1dce1a;
+	border-radius: 5px;
+	display: block;
+    height: 100%;
+    width: 100%;
+	font-size: 18;
+	margin-left: 25%;
+}
+
+.btn-void-div{
+	float: right;
+	height: 30px;
+	width: 30%;
+}
+
+.btn-void:hover,
+.btn-void:focus{
+	cursor: pointer;
+	background-color: #ff5151;
+	color: #423f3f;
+}
+.sss{
+	color: #423f3f;
+}
+.btn-void{
+	text-align: center;
+	border: 1px solid black;
+	background-color: #ff4242;
+	border-radius: 5px;
+	display: block;
+	height: 100%;
+	width: 100%;
+	font-size: 18;
+	margin-left: -50%;
+}
+.btnContainer{
+	margin-top: 2%;
+	height: 70px;
+}
+
+.disableClick{
+	text-align: center;
+	border: 1px solid black;
+	background-color: #1dce1a;
+	border-radius: 5px;
+	display: block;
+    height: 100%;
+    width: 100%;
+	font-size: 18;
+	margin-left: 25%;
+    pointer-events: none;
+}
+
+.receipt-div{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	width: 325px;
+}
+
+.receipt-table{
+	width: 100%;
+	border-collapse: collapse;
+	width: 100%;
+	height: 50%;
+	overflow-x:auto;
+	padding: 15px;
+	
+}
+
+.btn-print{
+	width: 90px;
+	height: 30px;
+}
+
+.totalcontainer{
+	background-color: #E8E8E8;
+	border-radius: 5px;
+	padding-top: 1%;
+	padding-left: 1%;
+	width: 16.3%;
+	height: 4%;
+	margin-top: 2%;
+	font-size: 20;
+	font-weight: bold;
+}
+
